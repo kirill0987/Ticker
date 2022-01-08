@@ -46,53 +46,66 @@ void createTickerLine()
 void addString(const char* newString)
 {
 	ticker.text = newString;
-		
-	while( *(++newString) )
-	{ 	
-		addChar( (uint16_t)*(ticker.text+ticker.sizeText), ticker.sizeText * 5 );
-		
-		ticker.sizeText++;
-	}
+
+	uint32_t sizeText = 0;
+
+	do
+	{
+		if (sizeText < 10)
+		{
+			addChar(*(newString), sizeText);
+		}
+		else
+		{
+			//Дальше не поместиться
+		}
+
+		sizeText++;
+
+	} while ( *(++newString) );
+
+	ticker.sizeText = sizeText;
 }
 
-void addChar(uint16_t newChar, uint16_t position)
+void addChar(unsigned char newChar, uint16_t positionOffset)
 {
-
-	for (int j = 7; j >= 0; j--)
+	uint16_t numberCharInArray = ( (uint16_t)newChar) * 5;
+	
+	for (int j = 0; j < 7; j++)
 	{
-		for (int i = 0; i < 5; i++)
+		for (int i = 0; i < 6; i++)
 		{
-			if( j % 2 == 0 )
-			{
-				//addColorLedHexRGB(i,0xFFFFFF);
-			}
-			else
-			{
-				//addColorLedHexRGB(i,0x000000);
-			}
+			uint16_t counterLed = 0;
 			
-			if ( getBit(Font5x7[newChar + i], j) )
+			if (j % 2 == 0)
 			{
-				
+				counterLed = ((j * 60)) + i + (positionOffset * 6);
 			}
 			else
 			{
-				
+				counterLed = ( ((j + 1 ) * 60) - 1 ) - i - (positionOffset * 6);
 			}
-			
-			/*
-			if (getBit(Font5x7[newChar + i], j))
+
+			if( i == 5 )
 			{
-				std::cout << "*";
+				addColorLedHexRGB(counterLed, 0x0);
 			}
 			else
 			{
-				std::cout << " ";
+				uint8_t font = pgm_read_byte(&Font5x7[numberCharInArray + i]);
+
+				if ( getBit(font, j) )
+				{
+					addColorLedHexRGB(counterLed, 0xFFFFFF);
+				}
+				else
+				{
+					addColorLedHexRGB(counterLed, 0x0);
+				}
 			}
-			*/
 		}
 	}
-
+	
 }
 
 void createTickerMatrix(uint32_t width,

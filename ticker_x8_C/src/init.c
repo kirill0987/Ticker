@@ -10,13 +10,15 @@
 #include "../class/ticker.h"
 #include "../SPI/mtr_SPI.h"
 
-
-const char* m = "Старт";
+const char* testingText = "Привет мир";
 
 void initData()
 {
 	createTickerMatrix(60,8);
-	addString(m);
+	addString(testingText);
+	//addChar('П', 0);
+	
+	
 	//createTickerLine();
 	
 	/*
@@ -37,6 +39,16 @@ void initData()
 		}
 		
 		addColorLedHexRGB(i, 0xFF0000);
+		
+	}
+	*/
+	
+	/*
+	for( uint32_t i = 0; 
+		 i < AMOUNT_LED;
+		 i++ )
+	{				
+		addColorLedHexRGB(i, 0x000000);
 		
 	}
 	*/

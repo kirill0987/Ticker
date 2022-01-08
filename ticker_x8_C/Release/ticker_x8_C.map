@@ -37,217 +37,40 @@ Discarded input sections
 
  .data          0x00000000        0x0 E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
  .bss           0x00000000        0x0 E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
- .group         0x00000000        0x8 class/ticker.o
  .text          0x00000000        0x0 class/ticker.o
  .data          0x00000000        0x0 class/ticker.o
  .bss           0x00000000        0x0 class/ticker.o
  .text.createTickerLine
-                0x00000000       0xb6 class/ticker.o
+                0x00000000       0xae class/ticker.o
+ .text.addString
+                0x00000000       0x3c class/ticker.o
+ .text.addColorLedHexRGB
+                0x00000000       0x18 class/ticker.o
  .text.cyclicShift
-                0x00000000      0x15e class/ticker.o
+                0x00000000      0x14a class/ticker.o
  .rodata.stateBitSPI
                 0x00000000        0x4 class/ticker.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
+ .progmem.data.Font5x7
+                0x00000000      0x312 class/ticker.o
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
- .debug_macro   0x00000000      0xa66 main.o
- .debug_macro   0x00000000      0x1c9 main.o
- .debug_macro   0x00000000       0x10 main.o
- .debug_macro   0x00000000       0x9e main.o
- .debug_macro   0x00000000     0x138f main.o
- .debug_macro   0x00000000      0x204 main.o
- .debug_macro   0x00000000       0xcb main.o
- .debug_macro   0x00000000       0x34 main.o
- .debug_macro   0x00000000       0x18 main.o
- .debug_macro   0x00000000       0x6c main.o
- .debug_macro   0x00000000       0x16 main.o
- .debug_macro   0x00000000       0x22 main.o
- .debug_macro   0x00000000       0x1c main.o
- .debug_macro   0x00000000      0x10e main.o
- .debug_macro   0x00000000       0x66 main.o
- .debug_macro   0x00000000       0x16 main.o
- .debug_macro   0x00000000       0x20 main.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
- .group         0x00000000        0x8 SPI/mtr_SPI.o
  .text          0x00000000        0x0 SPI/mtr_SPI.o
  .data          0x00000000        0x0 SPI/mtr_SPI.o
  .bss           0x00000000        0x0 SPI/mtr_SPI.o
  .text.MTR_SPI_SlaveReceive
                 0x00000000        0x4 SPI/mtr_SPI.o
- .debug_macro   0x00000000      0xa66 SPI/mtr_SPI.o
- .debug_macro   0x00000000       0x10 SPI/mtr_SPI.o
- .debug_macro   0x00000000      0x1c9 SPI/mtr_SPI.o
- .debug_macro   0x00000000      0x2fc SPI/mtr_SPI.o
- .debug_macro   0x00000000       0x9e SPI/mtr_SPI.o
- .debug_macro   0x00000000     0x138f SPI/mtr_SPI.o
- .debug_macro   0x00000000      0x204 SPI/mtr_SPI.o
- .debug_macro   0x00000000       0xcb SPI/mtr_SPI.o
- .debug_macro   0x00000000       0x34 SPI/mtr_SPI.o
- .debug_macro   0x00000000       0x18 SPI/mtr_SPI.o
- .debug_macro   0x00000000       0x6c SPI/mtr_SPI.o
- .debug_macro   0x00000000       0x22 SPI/mtr_SPI.o
- .debug_macro   0x00000000       0xb8 SPI/mtr_SPI.o
- .debug_macro   0x00000000       0x1c SPI/mtr_SPI.o
- .debug_macro   0x00000000      0x10e SPI/mtr_SPI.o
- .debug_macro   0x00000000       0x66 SPI/mtr_SPI.o
- .debug_macro   0x00000000       0x16 SPI/mtr_SPI.o
- .debug_macro   0x00000000       0x20 SPI/mtr_SPI.o
- .debug_macro   0x00000000       0x69 SPI/mtr_SPI.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
- .group         0x00000000        0x8 src/init.o
  .text          0x00000000        0x0 src/init.o
  .data          0x00000000        0x0 src/init.o
  .bss           0x00000000        0x0 src/init.o
- .debug_macro   0x00000000      0xa66 src/init.o
- .debug_macro   0x00000000      0x1c9 src/init.o
- .debug_macro   0x00000000       0x16 src/init.o
- .debug_macro   0x00000000       0x22 src/init.o
- .debug_macro   0x00000000       0x1c src/init.o
- .debug_macro   0x00000000      0x10e src/init.o
- .debug_macro   0x00000000       0x66 src/init.o
- .debug_macro   0x00000000       0x16 src/init.o
- .debug_macro   0x00000000       0x20 src/init.o
- .debug_macro   0x00000000       0x10 src/init.o
- .debug_macro   0x00000000      0x302 src/init.o
- .debug_macro   0x00000000       0x9e src/init.o
- .debug_macro   0x00000000     0x138f src/init.o
- .debug_macro   0x00000000      0x204 src/init.o
- .debug_macro   0x00000000       0xcb src/init.o
- .debug_macro   0x00000000       0x34 src/init.o
- .debug_macro   0x00000000       0x18 src/init.o
- .debug_macro   0x00000000       0x6c src/init.o
- .debug_macro   0x00000000       0x69 src/init.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
- .group         0x00000000        0x8 src/task.o
+ .rodata.str1.1
+                0x00000000        0x6 src/init.o
+ .data.m        0x00000000        0x2 src/init.o
  .text          0x00000000        0x0 src/task.o
  .data          0x00000000        0x0 src/task.o
  .bss           0x00000000        0x0 src/task.o
  .text.update   0x00000000        0x2 src/task.o
- .debug_info    0x00000000       0x90 src/task.o
- .debug_abbrev  0x00000000       0x45 src/task.o
- .debug_aranges
-                0x00000000       0x20 src/task.o
- .debug_ranges  0x00000000       0x10 src/task.o
- .debug_macro   0x00000000       0xfd src/task.o
- .debug_macro   0x00000000      0xa66 src/task.o
- .debug_macro   0x00000000      0x1c9 src/task.o
- .debug_macro   0x00000000       0x16 src/task.o
- .debug_macro   0x00000000       0x10 src/task.o
- .debug_macro   0x00000000      0x302 src/task.o
- .debug_macro   0x00000000       0x9e src/task.o
- .debug_macro   0x00000000     0x138f src/task.o
- .debug_macro   0x00000000      0x204 src/task.o
- .debug_macro   0x00000000       0xcb src/task.o
- .debug_macro   0x00000000       0x34 src/task.o
- .debug_macro   0x00000000       0x18 src/task.o
- .debug_macro   0x00000000       0x6c src/task.o
- .debug_macro   0x00000000       0x69 src/task.o
- .debug_macro   0x00000000       0x1c src/task.o
- .debug_macro   0x00000000      0x10e src/task.o
- .debug_macro   0x00000000       0x66 src/task.o
- .debug_macro   0x00000000       0x16 src/task.o
- .debug_macro   0x00000000       0x20 src/task.o
- .debug_macro   0x00000000       0x22 src/task.o
- .debug_line    0x00000000      0x2bc src/task.o
- .debug_str     0x00000000     0x72be src/task.o
  .comment       0x00000000       0x31 src/task.o
- .debug_frame   0x00000000       0x24 src/task.o
  .text          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  .data          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  .bss           0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
@@ -533,7 +356,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0xd1c
+.text           0x00000000      0x5f6
  *(.vectors)
  .vectors       0x00000000       0x8c E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
                 0x00000000                __vector_default
@@ -551,38 +374,35 @@ END GROUP
  *libprintf_flt.a:*(.progmem.data)
  *libc.a:*(.progmem.data)
  *(.progmem*)
- .progmem.data.Font5x7
-                0x0000009a      0x500 class/ticker.o
-                0x0000009a                Font5x7
-                0x0000059a                . = ALIGN (0x2)
+                0x0000009a                . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
  *(.lowtext)
  *(.lowtext*)
-                0x0000059a                __ctors_start = .
+                0x0000009a                __ctors_start = .
  *(.ctors)
-                0x0000059a                __ctors_end = .
-                0x0000059a                __dtors_start = .
+                0x0000009a                __ctors_end = .
+                0x0000009a                __dtors_start = .
  *(.dtors)
-                0x0000059a                __dtors_end = .
+                0x0000009a                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x0000059a        0x0 E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
-                0x0000059a                __init
+ .init0         0x0000009a        0x0 E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
+                0x0000009a                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x0000059a        0xc E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
+ .init2         0x0000009a        0xc E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x000005a6       0x1a e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
-                0x000005a6                __do_copy_data
- .init4         0x000005c0       0x10 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
-                0x000005c0                __do_clear_bss
+ .init4         0x000000a6       0x1a e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+                0x000000a6                __do_copy_data
+ .init4         0x000000c0       0x10 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+                0x000000c0                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
@@ -593,107 +413,102 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x000005d0        0x4 E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
+ .init9         0x000000d0        0x4 E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
  *(.init9)
  *(.text)
- .text          0x000005d4        0x2 E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
-                0x000005d4                __vector_22
-                0x000005d4                __vector_28
-                0x000005d4                __vector_1
-                0x000005d4                __vector_32
-                0x000005d4                __vector_34
-                0x000005d4                __vector_24
-                0x000005d4                __vector_12
-                0x000005d4                __bad_interrupt
-                0x000005d4                __vector_6
-                0x000005d4                __vector_31
-                0x000005d4                __vector_3
-                0x000005d4                __vector_23
-                0x000005d4                __vector_30
-                0x000005d4                __vector_25
-                0x000005d4                __vector_11
-                0x000005d4                __vector_13
-                0x000005d4                __vector_19
-                0x000005d4                __vector_7
-                0x000005d4                __vector_27
-                0x000005d4                __vector_5
-                0x000005d4                __vector_33
-                0x000005d4                __vector_4
-                0x000005d4                __vector_9
-                0x000005d4                __vector_2
-                0x000005d4                __vector_21
-                0x000005d4                __vector_15
-                0x000005d4                __vector_29
-                0x000005d4                __vector_8
-                0x000005d4                __vector_26
-                0x000005d4                __vector_14
-                0x000005d4                __vector_10
-                0x000005d4                __vector_16
-                0x000005d4                __vector_18
-                0x000005d4                __vector_20
- .text          0x000005d6       0x26 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(time.o)
-                0x000005d6                time
-                0x000005fc                . = ALIGN (0x2)
+ .text          0x000000d4        0x2 E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
+                0x000000d4                __vector_22
+                0x000000d4                __vector_28
+                0x000000d4                __vector_1
+                0x000000d4                __vector_32
+                0x000000d4                __vector_34
+                0x000000d4                __vector_24
+                0x000000d4                __vector_12
+                0x000000d4                __bad_interrupt
+                0x000000d4                __vector_6
+                0x000000d4                __vector_31
+                0x000000d4                __vector_3
+                0x000000d4                __vector_23
+                0x000000d4                __vector_30
+                0x000000d4                __vector_25
+                0x000000d4                __vector_11
+                0x000000d4                __vector_13
+                0x000000d4                __vector_19
+                0x000000d4                __vector_7
+                0x000000d4                __vector_27
+                0x000000d4                __vector_5
+                0x000000d4                __vector_33
+                0x000000d4                __vector_4
+                0x000000d4                __vector_9
+                0x000000d4                __vector_2
+                0x000000d4                __vector_21
+                0x000000d4                __vector_15
+                0x000000d4                __vector_29
+                0x000000d4                __vector_8
+                0x000000d4                __vector_26
+                0x000000d4                __vector_14
+                0x000000d4                __vector_10
+                0x000000d4                __vector_16
+                0x000000d4                __vector_18
+                0x000000d4                __vector_20
+ .text          0x000000d6       0x26 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(time.o)
+                0x000000d6                time
+                0x000000fc                . = ALIGN (0x2)
  *(.text.*)
+ .text.addChar  0x000000fc        0x2 class/ticker.o
+                0x000000fc                addChar
  .text.createTickerMatrix
-                0x000005fc       0xda class/ticker.o
-                0x000005fc                createTickerMatrix
- .text.addColorLedHexRGB
-                0x000006d6       0x18 class/ticker.o
-                0x000006d6                addColorLedHexRGB
- .text.addChar  0x000006ee       0xf6 class/ticker.o
-                0x000006ee                addChar
- .text.addString
-                0x000007e4       0x5e class/ticker.o
-                0x000007e4                addString
+                0x000000fe       0xd2 class/ticker.o
+                0x000000fe                createTickerMatrix
  .text.startSend
-                0x00000842       0x14 class/ticker.o
-                0x00000842                startSend
+                0x000001d0       0x14 class/ticker.o
+                0x000001d0                startSend
  .text.__vector_17
-                0x00000856      0x214 class/ticker.o
-                0x00000856                __vector_17
- .text.main     0x00000a6a       0x24 main.o
-                0x00000a6a                main
+                0x000001e4      0x1c2 class/ticker.o
+                0x000001e4                __vector_17
+ .text.startup.main
+                0x000003a6       0x12 main.o
+                0x000003a6                main
  .text.MTR_SPI_init
-                0x00000a8e       0xf2 SPI/mtr_SPI.o
-                0x00000a8e                MTR_SPI_init
+                0x000003b8       0xa4 SPI/mtr_SPI.o
+                0x000003b8                MTR_SPI_init
  .text.MTR_SPI_MasterTransmitByte
-                0x00000b80        0x4 SPI/mtr_SPI.o
-                0x00000b80                MTR_SPI_MasterTransmitByte
+                0x0000045c        0x4 SPI/mtr_SPI.o
+                0x0000045c                MTR_SPI_MasterTransmitByte
  .text.initData
-                0x00000b84       0x1e src/init.o
-                0x00000b84                initData
- .text.libgcc   0x00000ba2       0x12 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
-                0x00000ba2                __tablejump2__
+                0x00000460       0x1c src/init.o
+                0x00000460                initData
+ .text.libgcc   0x0000047c       0x12 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+                0x0000047c                __tablejump2__
  .text.avr-libc
-                0x00000bb4       0xaa e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(rand.o)
-                0x00000c40                rand_r
-                0x00000c42                rand
-                0x00000c48                srand
+                0x0000048e       0xaa e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(rand.o)
+                0x0000051a                rand_r
+                0x0000051c                rand
+                0x00000522                srand
  .text.libgcc.div
-                0x00000c5e       0x28 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodsi4.o)
-                0x00000c5e                __divmodsi4
+                0x00000538       0x28 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodsi4.o)
+                0x00000538                __divmodsi4
  .text.libgcc.div
-                0x00000c86       0x10 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_negsi2.o)
-                0x00000c86                __negsi2
+                0x00000560       0x10 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_negsi2.o)
+                0x00000560                __negsi2
  .text.libgcc.mul
-                0x00000c96       0x14 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
-                0x00000c96                __muluhisi3
+                0x00000570       0x14 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+                0x00000570                __muluhisi3
  .text.libgcc.mul
-                0x00000caa        0xc e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
-                0x00000caa                __mulshisi3
-                0x00000cae                __mulohisi3
+                0x00000584        0xc e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
+                0x00000584                __mulshisi3
+                0x00000588                __mulohisi3
  .text.libgcc.div
-                0x00000cb6       0x44 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
-                0x00000cb6                __udivmodsi4
+                0x00000590       0x44 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+                0x00000590                __udivmodsi4
  .text.libgcc.mul
-                0x00000cfa       0x1e e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
-                0x00000cfa                __umulhisi3
-                0x00000d18                . = ALIGN (0x2)
+                0x000005d4       0x1e e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+                0x000005d4                __umulhisi3
+                0x000005f2                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000d18        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
-                0x00000d18                _exit
-                0x00000d18                exit
+ .fini9         0x000005f2        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+                0x000005f2                _exit
+                0x000005f2                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -712,55 +527,49 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000d18        0x4 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .fini0         0x000005f2        0x4 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000d1c                _etext = .
+                0x000005f6                _etext = .
 
-.data           0x00800100       0x12 load address 0x00000d1c
+.data           0x00800100        0x4 load address 0x000005f6
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x4 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(rand.o)
  *(.data*)
- .data.testingText
-                0x00800104        0x2 src/init.o
-                0x00800104                testingText
  *(.gnu.linkonce.d*)
  *(.rodata)
  *(.rodata*)
- .rodata.str1.1
-                0x00800106        0xb src/init.o
  *(.gnu.linkonce.r*)
-                0x00800112                . = ALIGN (0x2)
- *fill*         0x00800111        0x1 
-                0x00800112                _edata = .
-                0x00800112                PROVIDE (__data_end, .)
+                0x00800104                . = ALIGN (0x2)
+                0x00800104                _edata = .
+                0x00800104                PROVIDE (__data_end, .)
 
-.bss            0x00800112      0x5c5
-                0x00800112                PROVIDE (__bss_start, .)
+.bss            0x00800104      0x5c5
+                0x00800104                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.sendByte.2334
-                0x00800112        0x1 class/ticker.o
- .bss.counterBit.2331
-                0x00800113        0x4 class/ticker.o
- .bss.counterLed.2333
-                0x00800117        0x4 class/ticker.o
- .bss.counterColor.2332
-                0x0080011b        0x4 class/ticker.o
+ .bss.sendByte.2328
+                0x00800104        0x1 class/ticker.o
+ .bss.counterBit.2325
+                0x00800105        0x4 class/ticker.o
+ .bss.counterLed.2327
+                0x00800109        0x4 class/ticker.o
+ .bss.counterColor.2326
+                0x0080010d        0x4 class/ticker.o
  *(COMMON)
- COMMON         0x0080011f      0x5b4 class/ticker.o
-                0x0080011f                ticker
- COMMON         0x008006d3        0x4 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(system_time.o)
-                0x008006d3                __system_time
-                0x008006d7                PROVIDE (__bss_end, .)
-                0x00000d1c                __data_load_start = LOADADDR (.data)
-                0x00000d2e                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x00800111      0x5b4 class/ticker.o
+                0x00800111                ticker
+ COMMON         0x008006c5        0x4 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(system_time.o)
+                0x008006c5                __system_time
+                0x008006c9                PROVIDE (__bss_end, .)
+                0x000005f6                __data_load_start = LOADADDR (.data)
+                0x000005fa                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008006d7        0x0
+.noinit         0x008006c9        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x008006d7                _end = .
+                0x008006c9                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -831,68 +640,33 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000       0xc8
+.debug_aranges
  *(.debug_aranges)
- .debug_aranges
-                0x00000000       0x58 class/ticker.o
- .debug_aranges
-                0x00000058       0x20 main.o
- .debug_aranges
-                0x00000078       0x30 SPI/mtr_SPI.o
- .debug_aranges
-                0x000000a8       0x20 src/init.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x13a1
+.debug_info     0x00000000      0x780
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x780 E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
- .debug_info    0x00000780      0x6bc class/ticker.o
- .debug_info    0x00000e3c      0x26c main.o
- .debug_info    0x000010a8      0x1f5 SPI/mtr_SPI.o
- .debug_info    0x0000129d      0x104 src/init.o
 
-.debug_abbrev   0x00000000      0xbcb
+.debug_abbrev   0x00000000      0x718
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x718 E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
- .debug_abbrev  0x00000718      0x1e5 class/ticker.o
- .debug_abbrev  0x000008fd      0x163 main.o
- .debug_abbrev  0x00000a60       0xcd SPI/mtr_SPI.o
- .debug_abbrev  0x00000b2d       0x9e src/init.o
 
-.debug_line     0x00000000     0x1178
+.debug_line     0x00000000      0x16a
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x16a E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
- .debug_line    0x0000016a      0x5fe class/ticker.o
- .debug_line    0x00000768      0x339 main.o
- .debug_line    0x00000aa1      0x40f SPI/mtr_SPI.o
- .debug_line    0x00000eb0      0x2c8 src/init.o
 
-.debug_frame    0x00000000      0x218
+.debug_frame
  *(.debug_frame)
- .debug_frame   0x00000000      0x184 class/ticker.o
- .debug_frame   0x00000184       0x24 main.o
- .debug_frame   0x000001a8       0x4c SPI/mtr_SPI.o
- .debug_frame   0x000001f4       0x24 src/init.o
 
-.debug_str      0x00000000     0xa78c
+.debug_str      0x00000000      0x27d
  *(.debug_str)
  .debug_str     0x00000000      0x27d E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
- .debug_str     0x0000027d     0xa00b class/ticker.o
-                               0xa116 (size before relaxing)
- .debug_str     0x0000a288      0x41f main.o
-                               0x776d (size before relaxing)
- .debug_str     0x0000a6a7       0xcb SPI/mtr_SPI.o
-                               0x77a8 (size before relaxing)
- .debug_str     0x0000a772       0x1a src/init.o
-                               0x72e9 (size before relaxing)
 
-.debug_loc      0x00000000      0xa2f
+.debug_loc
  *(.debug_loc)
- .debug_loc     0x00000000      0x707 class/ticker.o
- .debug_loc     0x00000707       0x48 main.o
- .debug_loc     0x0000074f      0x2e0 SPI/mtr_SPI.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -912,47 +686,10 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000       0xa0
+.debug_ranges
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x60 class/ticker.o
- .debug_ranges  0x00000060       0x10 main.o
- .debug_ranges  0x00000070       0x20 SPI/mtr_SPI.o
- .debug_ranges  0x00000090       0x10 src/init.o
 
-.debug_macro    0x00000000     0x34da
+.debug_macro
  *(.debug_macro)
- .debug_macro   0x00000000      0x123 class/ticker.o
- .debug_macro   0x00000123      0xa66 class/ticker.o
- .debug_macro   0x00000b89       0x1c class/ticker.o
- .debug_macro   0x00000ba5      0x10e class/ticker.o
- .debug_macro   0x00000cb3       0x66 class/ticker.o
- .debug_macro   0x00000d19       0x16 class/ticker.o
- .debug_macro   0x00000d2f       0x20 class/ticker.o
- .debug_macro   0x00000d4f       0x10 class/ticker.o
- .debug_macro   0x00000d5f      0x1c9 class/ticker.o
- .debug_macro   0x00000f28      0x2fc class/ticker.o
- .debug_macro   0x00001224       0x9e class/ticker.o
- .debug_macro   0x000012c2     0x138f class/ticker.o
- .debug_macro   0x00002651      0x204 class/ticker.o
- .debug_macro   0x00002855       0xcb class/ticker.o
- .debug_macro   0x00002920       0x34 class/ticker.o
- .debug_macro   0x00002954       0x18 class/ticker.o
- .debug_macro   0x0000296c       0x6c class/ticker.o
- .debug_macro   0x000029d8       0x69 class/ticker.o
- .debug_macro   0x00002a41       0x22 class/ticker.o
- .debug_macro   0x00002a63       0x16 class/ticker.o
- .debug_macro   0x00002a79       0xb8 class/ticker.o
- .debug_macro   0x00002b31       0x10 class/ticker.o
- .debug_macro   0x00002b41       0x12 class/ticker.o
- .debug_macro   0x00002b53      0x175 class/ticker.o
- .debug_macro   0x00002cc8       0x12 class/ticker.o
- .debug_macro   0x00002cda       0x34 class/ticker.o
- .debug_macro   0x00002d0e      0x11f main.o
- .debug_macro   0x00002e2d      0x302 main.o
- .debug_macro   0x0000312f       0x63 main.o
- .debug_macro   0x00003192       0x10 main.o
- .debug_macro   0x000031a2      0x160 main.o
- .debug_macro   0x00003302       0xdb SPI/mtr_SPI.o
- .debug_macro   0x000033dd       0xfd src/init.o
 OUTPUT(ticker_x8_C.elf elf32-avr)
 LOAD linker stubs

@@ -17,10 +17,7 @@ main.d main.o: .././main.c .././inc/init.h .././inc/task.h \
  e:\mi\microchipstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  e:\mi\microchipstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
  e:\mi\microchipstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
- .././class/../config.h \
- e:\mi\microchipstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
- e:\mi\microchipstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
- e:\mi\microchipstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h
+ .././class/../config.h
 
 .././inc/init.h:
 
@@ -65,9 +62,3 @@ e:\mi\microchipstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\in
 e:\mi\microchipstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h:
 
 .././class/../config.h:
-
-e:\mi\microchipstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h:
-
-e:\mi\microchipstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h:
-
-e:\mi\microchipstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h:
