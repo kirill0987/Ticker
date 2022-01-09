@@ -1,5 +1,7 @@
 Archive member included to satisfy reference by file (symbol)
 
+e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+                              class/ticker.o (__mulsi3)
 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
                               E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o (exit)
 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
@@ -8,6 +10,12 @@ e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5
                               class/ticker.o (__do_copy_data)
 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
                               class/ticker.o (__do_clear_bss)
+e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+                              class/ticker.o (__muluhisi3)
+e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
+                              class/ticker.o (__mulshisi3)
+e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+                              e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o) (__umulhisi3)
 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(rand.o)
                               class/ticker.o (srand)
 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(time.o)
@@ -18,14 +26,8 @@ e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5
                               e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(rand.o) (__divmodsi4)
 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_negsi2.o)
                               e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodsi4.o) (__negsi2)
-e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
-                              e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(rand.o) (__muluhisi3)
-e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
-                              e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(rand.o) (__mulohisi3)
 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
                               e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodsi4.o) (__udivmodsi4)
-e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
-                              e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o) (__umulhisi3)
 
 Allocating common symbols
 Common symbol       size              file
@@ -67,7 +69,7 @@ Discarded input sections
  .bss           0x00000000        0x0 class/ticker.o
  .text.createTickerLine
                 0x00000000       0xb6 class/ticker.o
- .text.cyclicShift
+ .text.cyclicShiftLine
                 0x00000000      0x15e class/ticker.o
  .rodata.stateBitSPI
                 0x00000000        0x4 class/ticker.o
@@ -248,6 +250,20 @@ Discarded input sections
  .debug_str     0x00000000     0x72be src/task.o
  .comment       0x00000000       0x31 src/task.o
  .debug_frame   0x00000000       0x24 src/task.o
+ .text          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
  .text          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  .data          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  .bss           0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
@@ -311,6 +327,48 @@ Discarded input sections
                 0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
                 0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .data          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .bss           0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .text          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
+ .data          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
+ .bss           0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
+ .text.libgcc   0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
+ .text          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .data          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
  .text          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(rand.o)
  .bss           0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(rand.o)
  .data          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(time.o)
@@ -346,34 +404,6 @@ Discarded input sections
                 0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_negsi2.o)
  .text.libgcc.fixed
                 0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_negsi2.o)
- .text          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .data          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .bss           0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text.libgcc.div
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text.libgcc   0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text.libgcc.prologue
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text.libgcc.builtins
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text.libgcc.fmul
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text.libgcc.fixed
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
- .data          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
- .bss           0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
- .text.libgcc.div
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
- .text.libgcc   0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
- .text.libgcc.prologue
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
- .text.libgcc.builtins
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
- .text.libgcc.fmul
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
- .text.libgcc.fixed
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
  .text          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
  .data          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
  .bss           0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
@@ -388,20 +418,6 @@ Discarded input sections
                 0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
  .text.libgcc.fixed
                 0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
- .text          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .data          0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .bss           0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .text.libgcc.div
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .text.libgcc   0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .text.libgcc.prologue
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .text.libgcc.builtins
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .text.libgcc.fmul
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .text.libgcc.fixed
-                0x00000000        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
 
 Memory Configuration
 
@@ -533,7 +549,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0xd1c
+.text           0x00000000     0x10f6
  *(.vectors)
  .vectors       0x00000000       0x8c E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
                 0x00000000                __vector_default
@@ -641,59 +657,65 @@ END GROUP
  .text.addColorLedHexRGB
                 0x000006d6       0x18 class/ticker.o
                 0x000006d6                addColorLedHexRGB
- .text.addChar  0x000006ee       0xf6 class/ticker.o
+ .text.addChar  0x000006ee       0xd4 class/ticker.o
                 0x000006ee                addChar
  .text.addString
-                0x000007e4       0x5e class/ticker.o
-                0x000007e4                addString
+                0x000007c2       0x76 class/ticker.o
+                0x000007c2                addString
+ .text.cyclicShiftMatrix
+                0x00000838      0x232 class/ticker.o
+                0x00000838                cyclicShiftMatrix
  .text.startSend
-                0x00000842       0x14 class/ticker.o
-                0x00000842                startSend
+                0x00000a6a       0x14 class/ticker.o
+                0x00000a6a                startSend
  .text.__vector_17
-                0x00000856      0x214 class/ticker.o
-                0x00000856                __vector_17
- .text.main     0x00000a6a       0x24 main.o
-                0x00000a6a                main
+                0x00000a7e      0x39c class/ticker.o
+                0x00000a7e                __vector_17
+ .text.main     0x00000e1a       0x28 main.o
+                0x00000e1a                main
  .text.MTR_SPI_init
-                0x00000a8e       0xf2 SPI/mtr_SPI.o
-                0x00000a8e                MTR_SPI_init
+                0x00000e42       0xf2 SPI/mtr_SPI.o
+                0x00000e42                MTR_SPI_init
  .text.MTR_SPI_MasterTransmitByte
-                0x00000b80        0x4 SPI/mtr_SPI.o
-                0x00000b80                MTR_SPI_MasterTransmitByte
+                0x00000f34        0x4 SPI/mtr_SPI.o
+                0x00000f34                MTR_SPI_MasterTransmitByte
  .text.initData
-                0x00000b84       0x1e src/init.o
-                0x00000b84                initData
- .text.libgcc   0x00000ba2       0x12 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
-                0x00000ba2                __tablejump2__
+                0x00000f38       0x26 src/init.o
+                0x00000f38                initData
+ .text.libgcc.mul
+                0x00000f5e       0x1e e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+                0x00000f5e                __mulsi3
+ .text.libgcc   0x00000f7c       0x12 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+                0x00000f7c                __tablejump2__
+ .text.libgcc.mul
+                0x00000f8e       0x14 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+                0x00000f8e                __muluhisi3
+ .text.libgcc.mul
+                0x00000fa2        0xc e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
+                0x00000fa2                __mulshisi3
+                0x00000fa6                __mulohisi3
+ .text.libgcc.mul
+                0x00000fae       0x1e e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+                0x00000fae                __umulhisi3
  .text.avr-libc
-                0x00000bb4       0xaa e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(rand.o)
-                0x00000c40                rand_r
-                0x00000c42                rand
-                0x00000c48                srand
+                0x00000fcc       0xaa e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(rand.o)
+                0x00001058                rand_r
+                0x0000105a                rand
+                0x00001060                srand
  .text.libgcc.div
-                0x00000c5e       0x28 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodsi4.o)
-                0x00000c5e                __divmodsi4
+                0x00001076       0x28 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodsi4.o)
+                0x00001076                __divmodsi4
  .text.libgcc.div
-                0x00000c86       0x10 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_negsi2.o)
-                0x00000c86                __negsi2
- .text.libgcc.mul
-                0x00000c96       0x14 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
-                0x00000c96                __muluhisi3
- .text.libgcc.mul
-                0x00000caa        0xc e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulshisi3.o)
-                0x00000caa                __mulshisi3
-                0x00000cae                __mulohisi3
+                0x0000109e       0x10 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_negsi2.o)
+                0x0000109e                __negsi2
  .text.libgcc.div
-                0x00000cb6       0x44 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
-                0x00000cb6                __udivmodsi4
- .text.libgcc.mul
-                0x00000cfa       0x1e e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
-                0x00000cfa                __umulhisi3
-                0x00000d18                . = ALIGN (0x2)
+                0x000010ae       0x44 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+                0x000010ae                __udivmodsi4
+                0x000010f2                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000d18        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
-                0x00000d18                _exit
-                0x00000d18                exit
+ .fini9         0x000010f2        0x0 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+                0x000010f2                _exit
+                0x000010f2                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -712,11 +734,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000d18        0x4 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .fini0         0x000010f2        0x4 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000d1c                _etext = .
+                0x000010f6                _etext = .
 
-.data           0x00800100       0x12 load address 0x00000d1c
+.data           0x00800100       0x12 load address 0x000010f6
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x4 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(rand.o)
@@ -735,32 +757,34 @@ END GROUP
                 0x00800112                _edata = .
                 0x00800112                PROVIDE (__data_end, .)
 
-.bss            0x00800112      0x5c5
+.bss            0x00800112      0x5c6
                 0x00800112                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.sendByte.2334
+ .bss.counterLineTable.2364
                 0x00800112        0x1 class/ticker.o
- .bss.counterBit.2331
-                0x00800113        0x4 class/ticker.o
- .bss.counterLed.2333
-                0x00800117        0x4 class/ticker.o
- .bss.counterColor.2332
-                0x0080011b        0x4 class/ticker.o
+ .bss.sendByte.2363
+                0x00800113        0x1 class/ticker.o
+ .bss.counterBit.2360
+                0x00800114        0x4 class/ticker.o
+ .bss.counterLed.2362
+                0x00800118        0x4 class/ticker.o
+ .bss.counterColor.2361
+                0x0080011c        0x4 class/ticker.o
  *(COMMON)
- COMMON         0x0080011f      0x5b4 class/ticker.o
-                0x0080011f                ticker
- COMMON         0x008006d3        0x4 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(system_time.o)
-                0x008006d3                __system_time
-                0x008006d7                PROVIDE (__bss_end, .)
-                0x00000d1c                __data_load_start = LOADADDR (.data)
-                0x00000d2e                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x00800120      0x5b4 class/ticker.o
+                0x00800120                ticker
+ COMMON         0x008006d4        0x4 e:/mi/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(system_time.o)
+                0x008006d4                __system_time
+                0x008006d8                PROVIDE (__bss_end, .)
+                0x000010f6                __data_load_start = LOADADDR (.data)
+                0x00001108                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008006d7        0x0
+.noinit         0x008006d8        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x008006d7                _end = .
+                0x008006d8                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -831,68 +855,68 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000       0xc8
+.debug_aranges  0x00000000       0xd0
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x58 class/ticker.o
+                0x00000000       0x60 class/ticker.o
  .debug_aranges
-                0x00000058       0x20 main.o
+                0x00000060       0x20 main.o
  .debug_aranges
-                0x00000078       0x30 SPI/mtr_SPI.o
+                0x00000080       0x30 SPI/mtr_SPI.o
  .debug_aranges
-                0x000000a8       0x20 src/init.o
+                0x000000b0       0x20 src/init.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x13a1
+.debug_info     0x00000000     0x14d9
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x780 E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
- .debug_info    0x00000780      0x6bc class/ticker.o
- .debug_info    0x00000e3c      0x26c main.o
- .debug_info    0x000010a8      0x1f5 SPI/mtr_SPI.o
- .debug_info    0x0000129d      0x104 src/init.o
+ .debug_info    0x00000780      0x7b4 class/ticker.o
+ .debug_info    0x00000f34      0x297 main.o
+ .debug_info    0x000011cb      0x1f5 SPI/mtr_SPI.o
+ .debug_info    0x000013c0      0x119 src/init.o
 
-.debug_abbrev   0x00000000      0xbcb
+.debug_abbrev   0x00000000      0xbfc
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x718 E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
- .debug_abbrev  0x00000718      0x1e5 class/ticker.o
- .debug_abbrev  0x000008fd      0x163 main.o
- .debug_abbrev  0x00000a60       0xcd SPI/mtr_SPI.o
- .debug_abbrev  0x00000b2d       0x9e src/init.o
+ .debug_abbrev  0x00000718      0x1fd class/ticker.o
+ .debug_abbrev  0x00000915      0x17c main.o
+ .debug_abbrev  0x00000a91       0xcd SPI/mtr_SPI.o
+ .debug_abbrev  0x00000b5e       0x9e src/init.o
 
-.debug_line     0x00000000     0x1178
+.debug_line     0x00000000     0x130f
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x16a E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
- .debug_line    0x0000016a      0x5fe class/ticker.o
- .debug_line    0x00000768      0x339 main.o
- .debug_line    0x00000aa1      0x40f SPI/mtr_SPI.o
- .debug_line    0x00000eb0      0x2c8 src/init.o
+ .debug_line    0x0000016a      0x78f class/ticker.o
+ .debug_line    0x000008f9      0x33f main.o
+ .debug_line    0x00000c38      0x40f SPI/mtr_SPI.o
+ .debug_line    0x00001047      0x2c8 src/init.o
 
-.debug_frame    0x00000000      0x218
+.debug_frame    0x00000000      0x2d8
  *(.debug_frame)
- .debug_frame   0x00000000      0x184 class/ticker.o
- .debug_frame   0x00000184       0x24 main.o
- .debug_frame   0x000001a8       0x4c SPI/mtr_SPI.o
- .debug_frame   0x000001f4       0x24 src/init.o
+ .debug_frame   0x00000000      0x244 class/ticker.o
+ .debug_frame   0x00000244       0x24 main.o
+ .debug_frame   0x00000268       0x4c SPI/mtr_SPI.o
+ .debug_frame   0x000002b4       0x24 src/init.o
 
-.debug_str      0x00000000     0xa78c
+.debug_str      0x00000000     0xa7b3
  *(.debug_str)
  .debug_str     0x00000000      0x27d E:/mi/MicrochipStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega128a/avr51/crtatmega128a.o
- .debug_str     0x0000027d     0xa00b class/ticker.o
-                               0xa116 (size before relaxing)
- .debug_str     0x0000a288      0x41f main.o
-                               0x776d (size before relaxing)
- .debug_str     0x0000a6a7       0xcb SPI/mtr_SPI.o
+ .debug_str     0x0000027d     0xa032 class/ticker.o
+                               0xa13d (size before relaxing)
+ .debug_str     0x0000a2af      0x41f main.o
+                               0x777f (size before relaxing)
+ .debug_str     0x0000a6ce       0xcb SPI/mtr_SPI.o
                                0x77a8 (size before relaxing)
- .debug_str     0x0000a772       0x1a src/init.o
+ .debug_str     0x0000a799       0x1a src/init.o
                                0x72e9 (size before relaxing)
 
-.debug_loc      0x00000000      0xa2f
+.debug_loc      0x00000000      0xef4
  *(.debug_loc)
- .debug_loc     0x00000000      0x707 class/ticker.o
- .debug_loc     0x00000707       0x48 main.o
- .debug_loc     0x0000074f      0x2e0 SPI/mtr_SPI.o
+ .debug_loc     0x00000000      0xbce class/ticker.o
+ .debug_loc     0x00000bce       0x46 main.o
+ .debug_loc     0x00000c14      0x2e0 SPI/mtr_SPI.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -912,12 +936,12 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000       0xa0
+.debug_ranges   0x00000000       0xc0
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x60 class/ticker.o
- .debug_ranges  0x00000060       0x10 main.o
- .debug_ranges  0x00000070       0x20 SPI/mtr_SPI.o
- .debug_ranges  0x00000090       0x10 src/init.o
+ .debug_ranges  0x00000000       0x80 class/ticker.o
+ .debug_ranges  0x00000080       0x10 main.o
+ .debug_ranges  0x00000090       0x20 SPI/mtr_SPI.o
+ .debug_ranges  0x000000b0       0x10 src/init.o
 
 .debug_macro    0x00000000     0x34da
  *(.debug_macro)

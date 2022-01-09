@@ -20,8 +20,8 @@ int main(void)
     {
 		if( ticker.allowedSend == false )
 		{
-			//cyclicShift(10);
-			_delay_ms(1000);
+			cyclicShiftMatrix(1);
+			_delay_ms(1);
 			startSend();
 		}
 		

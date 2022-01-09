@@ -60,10 +60,11 @@ void createTickerMatrix(uint32_t width,
 void addColorLedHexRGB(	uint32_t elem, 
 						uint32_t hexRGB);
 						
-void addString(const char* newString);
-void addChar(unsigned char newChar, uint16_t positionOffset);
+void addString(const char* newString, uint32_t hexRGB);
+void addChar(unsigned char newChar, uint16_t positionOffset, uint32_t hexRGB);
 						
-void cyclicShift(long int shift);
+void cyclicShiftLine(long int shift);
+void cyclicShiftMatrix(long int shift);
 void startSend();
 void show();
 

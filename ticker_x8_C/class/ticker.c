@@ -43,7 +43,7 @@ void createTickerLine()
 	ticker.sizeText = 0;
 }
 
-void addString(const char* newString)
+void addString(const char* newString, uint32_t hexRGB)
 {
 	ticker.text = newString;
 
@@ -53,7 +53,7 @@ void addString(const char* newString)
 	{
 		if (sizeText < 10)
 		{
-			addChar(*(newString), sizeText);
+			addChar( *(newString), sizeText, hexRGB);
 		}
 		else
 		{
@@ -67,7 +67,7 @@ void addString(const char* newString)
 	ticker.sizeText = sizeText;
 }
 
-void addChar(unsigned char newChar, uint16_t positionOffset)
+void addChar(unsigned char newChar, uint16_t positionOffset, uint32_t hexRGB)
 {
 	uint16_t numberCharInArray = ( (uint16_t)newChar) * 5;
 	
@@ -75,16 +75,7 @@ void addChar(unsigned char newChar, uint16_t positionOffset)
 	{
 		for (int i = 0; i < 6; i++)
 		{
-			uint16_t counterLed = 0;
-			
-			if (j % 2 == 0)
-			{
-				counterLed = ((j * 60)) + i + (positionOffset * 6);
-			}
-			else
-			{
-				counterLed = ( ((j + 1 ) * 60) - 1 ) - i - (positionOffset * 6);
-			}
+			uint16_t counterLed = ((j * 60)) + i + (positionOffset * 6);
 
 			if( i == 5 )
 			{
@@ -96,7 +87,7 @@ void addChar(unsigned char newChar, uint16_t positionOffset)
 
 				if ( getBit(font, j) )
 				{
-					addColorLedHexRGB(counterLed, 0xFFFFFF);
+					addColorLedHexRGB(counterLed, hexRGB);
 				}
 				else
 				{
@@ -125,8 +116,8 @@ void createTickerMatrix(uint32_t width,
 	ticker.allowedSend = false;
 	
 	for( uint32_t i = 0;
-	i < ticker.amountLed;
-	i++ )
+			i < ticker.amountLed;
+			i++ )
 	{
 		ticker.arrayLed[i].red = 0;
 		ticker.arrayLed[i].green = 0;
@@ -152,7 +143,7 @@ void addColorLedHexRGB(uint32_t elem, uint32_t hexRGB)
 		(hexRGB >> 0) & 0xFF;
 }
 
-void cyclicShift(long int shift)
+void cyclicShiftLine(long int shift)
 {
 	if(shift == 0)
 	{
@@ -198,6 +189,57 @@ void cyclicShift(long int shift)
 	}while(shift != 0);
 }
 
+void cyclicShiftMatrix(long int shift)
+{
+	if (shift == 0)
+	{
+		return;
+	}
+
+	do {
+		if (shift > 0) //left
+		{
+			for (int j = 0; j < 7; j++)
+			{
+				ColorLed_t lastElement =
+					ticker.arrayLed[((j+1)*60)-1];
+
+				for (uint32_t i = ((j + 1) * 60) - 1;
+						i >= ((j*60) + 1);
+						i--)
+				{
+					ticker.arrayLed[i] =
+						ticker.arrayLed[i - 1];
+				}
+
+				ticker.arrayLed[(j * 60)] = lastElement;
+			}
+
+			shift--;
+		}
+		else			//right
+		{
+			for (int j = 0; j < 7; j++)
+			{
+				ColorLed_t firstElement =
+					ticker.arrayLed[j*60];
+
+				for (uint32_t i = j * 60;
+						i < (((j + 1) * 60) - 1);
+						i++)
+				{
+					ticker.arrayLed[i] =
+						ticker.arrayLed[i + 1];
+				}
+
+				ticker.arrayLed[((j + 1) * 60) - 1] = firstElement;
+			}
+
+			shift++;
+		}
+	} while (shift != 0);
+}
+
 void startSend()
 {
 	if( ticker.allowedSend == false )
@@ -213,6 +255,7 @@ ISR( SPI_STC_vect )
 	static uint32_t counterColor = 0;
 	static uint32_t counterLed = 0;
 	static uint8_t sendByte = 0;
+	static uint8_t counterLineTable = 0;
 	
 	if(	ticker.allowedSend )
 	{
@@ -222,40 +265,28 @@ ISR( SPI_STC_vect )
 		{
 			case(0):
 			{
-				if( getBit( ticker.arrayLed[counterLed].green, counterBit ) )
-				{
-					sendByte = stateBitSPI[0];
-				}
-				else
-				{
-					sendByte = stateBitSPI[1];
-				}
+				sendByte =															\
+					getBit( ticker.arrayLed[counterLed].green, counterBit ) ?	\
+						stateBitSPI[0] :											\
+						stateBitSPI[1];
 			}
 			break;
 	
 			case(1):
 			{
-				if( getBit( ticker.arrayLed[counterLed].red, counterBit ) )
-				{
-					sendByte = stateBitSPI[0];
-				}
-				else
-				{
-					sendByte = stateBitSPI[1];
-				}
+				sendByte =															\
+					getBit( ticker.arrayLed[counterLed].red, counterBit ) ?		\
+						stateBitSPI[0] :											\
+						stateBitSPI[1];
 			}
 			break;
 	
 			case(2):
 			{
-				if( getBit( ticker.arrayLed[counterLed].blue, counterBit ) )
-				{
-					sendByte = stateBitSPI[0];
-				}
-				else
-				{
-					sendByte = stateBitSPI[1];
-				}
+				sendByte =															\
+					getBit( ticker.arrayLed[counterLed].blue, counterBit ) ?	\
+						stateBitSPI[0] :											\
+						stateBitSPI[1];
 			}
 			break;
 		}
@@ -274,15 +305,56 @@ ISR( SPI_STC_vect )
 		{
 			counterColor = 0;
 			
-			if( counterLed < (AMOUNT_LED - 1) )
+			switch( ticker.typeTicker )
 			{
-				counterLed++;
-			}
-			else
-			{
-				counterLed = 0;
-				ticker.allowedSend = false;
-				DigitalWrite(MTR_SPI_SS, High);
+				case(TickerLine):
+				{
+					if( counterLed < AMOUNT_LED - 1)
+					{
+						counterLed++;
+					}
+					else
+					{
+						counterLed = 0;
+						ticker.allowedSend = false;
+						DigitalWrite(MTR_SPI_SS, High);
+					}
+				}
+				break;
+				
+				case(TickerMatrix):
+				{
+					if( counterLed != ( ticker.widthMatrix * ( ticker.heightMatrix - 1 ) ) )
+					{
+						( counterLineTable % 2 == 0 ) ? 
+							counterLed++ : 
+							counterLed-- ;
+						
+						//Чётная строка
+						if( ( counterLineTable % 2 == 0 ) && 
+							( ( ( ( counterLineTable + 1 ) * ticker.widthMatrix ) ) == counterLed ) )
+						{
+							counterLineTable += 1;
+							counterLed = ( ( counterLineTable + 1 ) * ticker.widthMatrix ) - 1;
+						}
+						
+						//Не чётная строка
+						if( ( counterLineTable % 2 != 0 ) && 
+							( ( ( counterLineTable * ticker.widthMatrix ) - 1 ) == counterLed ) )
+						{
+							counterLineTable += 1;
+							counterLed = ( ( counterLineTable ) * ticker.widthMatrix );
+						}
+					}
+					else
+					{
+						counterLed = 0;
+						counterLineTable = 0;
+						ticker.allowedSend = false;
+						DigitalWrite(MTR_SPI_SS, High);
+					}
+				}
+				break;
 			}
 		}
 

@@ -15,9 +15,8 @@ const char* testingText = "Привет мир";
 void initData()
 {
 	createTickerMatrix(60,8);
-	addString(testingText);
+	addString(testingText, 0xF0F0F0);
 	//addChar('П', 0);
-	
 	
 	//createTickerLine();
 	
